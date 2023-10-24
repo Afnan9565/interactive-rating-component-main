@@ -11,21 +11,36 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <div class="box">
+    <!-- Action Page -->
     <div class="action" id="action">
       <img src="images/icon-star.svg" class="star" alt="">
       <h1 class="box-head">How did we Do?</h1>
       <p class="box-para">  Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
       <div class="rating-options">
-        <div id="1" class="rating">1</div>
-        <div id="2" class="rating">2</div>
-        <div id="3" class="rating">3</div>
-        <div id="4" class="rating">4</div>
-        <div id="5" class="rating">5</div>
+        <button id="1" class="rating" onclick="rate1()">1</button>
+        <button id="2" class="rating" onclick="rate2()">2</button>
+        <button id="3" class="rating" onclick="rate3()">3</button>
+        <button id="4" class="rating" onclick="rate4()">4</button>
+        <button id="5" class="rating" onclick="rate5()">5</button>
       </div>
       <button onclick="submit()" class = "btn">SUBMIT</button>
     </div>
 
+    <!-- Reaction Page -->
+    <div class="reaction hide" id="reaction">
+      <div class="img-holder">
+        <img src="images/illustration-thank-you.svg" alt="">
+      </div>
+      <div class="para-holder">
+        <p id="ratepara">
+
+        </p>
+      </div>
+      <h2 class="box-head">Thank You!</h2>
+      <p class="box-para" id="test">  We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>
   </div>
 
 </body>

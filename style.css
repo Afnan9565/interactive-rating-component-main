@@ -72,6 +72,7 @@ body{
     justify-content: center;
     transition: all 0.2s ease-in;
     width: 2.7rem;
+    border: none;
 }
 .rating:hover{
     background-color: var(--medium-gray);
@@ -93,4 +94,58 @@ body{
 .btn:hover{
     background-color: white;
     color: var(--orange);
+}
+.hide{
+    display: none;
+}
+.active{
+        background-color: var(--orange);
+        color:white;
+    }
+.img-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+
+}
+.img-holder img{
+    height: 6rem;
+    /* For Img to be optically center */
+    margin-left: -1rem;
+}
+#ratepara{
+    font-size: 0.85rem;
+    color: orange;
+    font-weight: 400;
+    background-color: hsla(217, 12%, 63%, 0.123);
+    display: inline;
+    padding: 0.25rem 0.8rem;
+    border-radius: 1rem;
+}
+.para-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -0.8rem;
+}
+.reaction .box-head{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.reaction .box-para{
+    text-align: center;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width:538px) {
+    .box{
+        width: 75%;
+    }
+}
+@media screen and (max-width:300px){
+    .box{
+        width: 88%;
+    }
 }
