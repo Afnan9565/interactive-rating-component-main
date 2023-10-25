@@ -22,7 +22,7 @@ body{
 .box{
     background-color: var(--dark-blue);
     width: 25%;
-    height: 50%;
+    /* height: 50%; */
     margin: auto;
     border-radius: 1.5rem;
     font-weight: 700;
