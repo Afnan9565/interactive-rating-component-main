@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/rating.jpeg)
-![](./screenshots/thankyou.jpeg)
+![]([./screenshots/rating.jpeg](https://afnan9565.github.io/interactive-rating-component-main/screenshots/rating.jpeg))
+![]([./screenshots/thankyou.jpeg](https://afnan9565.github.io/interactive-rating-component-main/screenshots/thankyou.jpeg))
 
 
 ### Links
